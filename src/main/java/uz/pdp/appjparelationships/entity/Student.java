@@ -22,7 +22,7 @@ public class Student {
     @Column(nullable = false)
     private String lastName;
 
-    @OneToOne//ONE student TO ONE address*** ONE address TO ONE student
+    @OneToOne //ONE student TO ONE address*** ONE address TO ONE student
     private Address address;
 
     @ManyToOne
